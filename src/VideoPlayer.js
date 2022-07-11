@@ -6,7 +6,9 @@ export default memo(function VideoPlayer({src, onPlay, onPause}) {
 
     const countRef = useRef(0);
     countRef.current++;
+     
 
+     
     return (
         <div>
             <p>Call count is {countRef.current}</p>
